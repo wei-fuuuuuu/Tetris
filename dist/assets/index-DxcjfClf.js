@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/WobbleUpdater-D6qY2zUP.js","assets/index-CoBen3Ae.js","assets/index-vt03zn5_.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{b as o}from"./index-CoBen3Ae.js";async function i(t,a=!0){await t.addParticleUpdater("wobble",async e=>{const{WobbleUpdater:r}=await o(()=>import("./WobbleUpdater-D6qY2zUP.js"),__vite__mapDeps([0,1,2]));return new r(e)},a)}export{i as loadWobbleUpdater};
