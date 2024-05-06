@@ -1,0 +1,2 @@
+const __vite__fileDeps=["assets/EmojiDrawer-C92tItC7.js","assets/index-bTM9SBzd.js","assets/index-C7EpE-Td.css"],__vite__mapDeps=i=>i.map(i=>__vite__fileDeps[i]);
+import{b as a}from"./index-bTM9SBzd.js";const i=["emoji"];async function r(e,o=!0){const{EmojiDrawer:t}=await a(()=>import("./EmojiDrawer-C92tItC7.js"),__vite__mapDeps([0,1,2]));await e.addShape(i,new t,o)}const _=Object.freeze(Object.defineProperty({__proto__:null,loadEmojiShape:r},Symbol.toStringTag,{value:"Module"}));export{_ as i,i as v};
